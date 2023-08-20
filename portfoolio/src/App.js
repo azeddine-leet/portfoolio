@@ -10,7 +10,7 @@ import NoPage from "./Components/NoPage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container mx-auto">
     <BrowserRouter>
       <Routes>
           <Route index element={<Home />} />
