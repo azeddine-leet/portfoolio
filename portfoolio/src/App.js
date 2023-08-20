@@ -7,11 +7,13 @@ import Projects from "./Components/Projects";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import NoPage from "./Components/NoPage";
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <div className="container mx-auto">
     <BrowserRouter>
+      <Navbar />
       <Routes>
           <Route index element={<Home />} />
           <Route path="Home" element={<Home />} />
