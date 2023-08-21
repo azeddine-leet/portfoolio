@@ -11,7 +11,7 @@ import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <div className="wrapper container mx-auto">
+    <div className="container mx-auto">
     <BrowserRouter>
       <Navbar />
       <Routes>
