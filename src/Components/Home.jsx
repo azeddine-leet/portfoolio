@@ -8,9 +8,10 @@ export default function Home() {
                 <img 
                     src={Avatar}
                     alt="avatar"
-                    className="rounded-full w-64 h-64 border border-black bg-black"
+                    className="rounded-full w-60 h-60 bg-red"
                 />
                 <h1 className="font-bold text-2xl">Azeddine Elmakkaoui</h1>
+                <h1 className="font-bold text-2xl">Security Engineer | Software Developer</h1>
             </div>
         </div>
     );
