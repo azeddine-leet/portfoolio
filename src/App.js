@@ -8,6 +8,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import NoPage from "./Components/NoPage";
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         {/* </Route> */}
       </Routes>
+      <Footer />
     </BrowserRouter>
     </div>
   );

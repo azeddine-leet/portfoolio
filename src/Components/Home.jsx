@@ -32,7 +32,7 @@ export default function Home() {
     })
 
     return (
-        <div className="text-center	flex justify-center items-center h-[calc(100vh-60px)]">
+        <div className="text-center	flex justify-center items-center h-[calc(100vh-113px)]">
             <div className="wrap">
                 <img 
                     src={Avatar}
@@ -41,7 +41,7 @@ export default function Home() {
                 />
                 <h1 className="font-bold text-2xl">Azeddine Elmakkaoui</h1>
                 <h1 className="font-bold text-2xl">Security Engineer | Software Developer</h1>
-                <ul className="flex space-between mx-2 my-2">{ socialMediaList }</ul>
+                <ul className="flex justify-center items-center space-x-4 my-2">{ socialMediaList }</ul>
             </div>
         </div>
     );
