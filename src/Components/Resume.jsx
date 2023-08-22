@@ -1,7 +1,9 @@
-export default function Resume() {
+import Comming from './Comming'
+
+export default function Resume () {
     return (
         <>
-            <h1>Resume</h1>
+            <Comming />
         </>
-    );
+    )
 }
