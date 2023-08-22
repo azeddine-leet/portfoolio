@@ -79,7 +79,7 @@ export default function Navbar() {
                         )}
                     </svg>
                 </button>
-                <ul className="hidden  md:flex space-x-4">{listItems}</ul>
+                <ul className="hidden md:flex space-x-4 text-base font-bold">{listItems}</ul>
 
                 {isOpen && (
                     <div className="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100">
