@@ -40,7 +40,7 @@ export default function Home() {
                     className="rounded-full w-60 h-60 bg-red mx-auto"
                 />
                 <h1 className="font-bold text-2xl">Azeddine Elmakkaoui</h1>
-                <h1 className="font-bold text-2xl">Security Engineer | Software Developer</h1>
+                <h1 className="font-bold text-2xl">Software Developer | Cyber Security Enthusiast | student at 1337</h1>
                 <ul className="flex justify-center items-center space-x-4 my-2">{ socialMediaList }</ul>
             </div>
         </div>
