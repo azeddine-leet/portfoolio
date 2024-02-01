@@ -14,11 +14,6 @@ export default function Home() {
             iconAvatar: <FaLinkedin className="w-8 h-8" />,
             link: 'https://www.linkedin.com/in/aelmakk/'
         },
-        {
-            key: 2,
-            iconAvatar: <FaTwitter className="w-8 h-8" />,
-            link: 'https://twitter.com/aelmakk'
-        },
     ]
 
     const socialMediaList = media.map((item) => {
